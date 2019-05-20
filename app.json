@@ -744,9 +744,7 @@
       },
       "class": "other",
       "capabilities": [
-        "alarm_contact",
-        "bshc_string.remaining_time",
-        "bshc_string.progress"
+        "alarm_contact"
       ],
       "capabilitiesOptions": {
         "alarm_contact": {

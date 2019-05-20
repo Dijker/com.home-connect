@@ -8,25 +8,13 @@
 		"small": "{{driverAssetsPath}}/images/small.png"
 	},
 	"class": "other",
-	"capabilities": [ "alarm_contact", "bshc_string.remaining_time", "bshc_string.progress" ],
+	"capabilities": [ "alarm_contact" ],
 	"capabilitiesOptions": {
 		"alarm_contact": {
 			"title": {
 				"en": "Door open",
 				"nl": "Deur geopend"
 			}
-		},
-		"bshc_string.remaining_time": {
-			"title": {
-				"en": "Remaining time",
-				"nl": "Resterende tijd"
-			}
-		},
-		"bshc_string.progress": {
-  		"title": {
-    		"en": "Program progress",
-    		"nl": "Programmavoortgang"
-  		}
 		}
 	},
 	"pair": [
