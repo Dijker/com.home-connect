@@ -12,7 +12,7 @@
     "small": "/assets/images/small.png"
   },
   "category": "appliances",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "compatibility": ">=1.5.0",
   "author": {
     "name": "Athom B.V.",
@@ -751,18 +751,6 @@
           "title": {
             "en": "Door open",
             "nl": "Deur geopend"
-          }
-        },
-        "bshc_string.remaining_time": {
-          "title": {
-            "en": "Remaining time",
-            "nl": "Resterende tijd"
-          }
-        },
-        "bshc_string.progress": {
-          "title": {
-            "en": "Program progress",
-            "nl": "Programmavoortgang"
           }
         }
       },
