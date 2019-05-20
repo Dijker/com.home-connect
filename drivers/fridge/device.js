@@ -21,9 +21,9 @@ class HomeConnectDeviceFridge extends HomeConnectDevice {
     
     const { haId } = this;      
     
-    // Register Door image  
     this.oAuth2Client.getImages({ haId }).then(images => {
       
+      // Register Door image  
       if( images.find(image => image.key === keyCameraDoor )) {
         this.imageDoor = new Homey.Image('jpg');
         if( this.imageDoor.setStream ) {
