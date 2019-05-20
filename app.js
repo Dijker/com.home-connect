@@ -12,7 +12,8 @@ const SCOPES = [
 	'Settings',
 ];
 
-const DEBUG = false; // process.env.DEBUG === '1'
+//const DEBUG = false;
+const DEBUG = process.env.DEBUG === '1';
 if( DEBUG ) console.log('WARNING: App is communicating with DEVELOPER servers, not PRODUCTION.\nRun app with --install to use PRODUCTION servers.\n');
 
 module.exports = class HomeConnectApp extends OAuth2App {
