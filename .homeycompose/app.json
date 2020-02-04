@@ -1,6 +1,7 @@
 {
   "id": "com.home-connect",
   "sdk": 2,
+  "brandColor": "#009AD9",
   "name": {
     "en": "Bosch-Siemens Home Connect"
   },
