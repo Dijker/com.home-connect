@@ -10,10 +10,10 @@
 	"class": "coffeemachine",
 	"capabilities": [ "onoff", "alarm_contact", "bshc_string.progress" ],
 	"capabilitiesOptions": {
-		"bshc_string.remaining_time": {
+		"bshc_string.progress": {
 			"title": {
-				"en": "Remaining time",
-				"nl": "Resterende tijd"
+    		"en": "Program progress",
+    		"nl": "Programmavoortgang"
 			}
 		}
 	},
